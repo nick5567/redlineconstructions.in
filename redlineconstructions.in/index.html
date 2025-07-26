@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Redline Constructions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: #b30000;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #b30000;
+      margin-bottom: 1rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .feature {
+      background: #fafafa;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border-left: 5px solid #b30000;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Redline Constructions!</h1>
-  <p>Website under construction. Stay tuned.</p>
+
+  <header>
+    <h1>Redline Constructions</h1>
+    <p class="tagline">Architecture & Interior Design Experts</p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Architectural Design</h3>
+        <p>Modern, Vastu-compliant designs tailored for your home or business.</p>
+      </div>
+      <div class="feature">
+        <h3>Interior Design Studio</h3>
+        <p>Custom interiors with 3D visualization and real-time walkthroughs.</p>
+      </div>
+      <div class="feature">
+        <h3>End-to-End Planning</h3>
+        <p>From concept to construction — we manage it all seamlessly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <p>We merge technology and creativity to deliver innovative spaces that reflect your style and functionality. Our virtual walkthroughs ensure no surprises — just satisfaction.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Redline Constructions. All rights reserved.
+  </footer>
+
 </body>
 </html>
